@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/app.css" />
+  <script defer src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+  <script defer src="/js/app.js" ></script>
+
+</head>
+<body>
+  
+  <div id="cursor" class="cursor"></div>
+
+  <div class="circulos">
+    <svg class="circulo circulo1" viewBox="0 0 200 200"  xmlns="http://www.w3.org/2000/svg">
+      <path class="path" d="M30.7,-30.5C43.4,-25.9,59.9,-19.7,63.2,-9.8C66.6,0.1,56.8,13.6,46.5,22.5C36.2,31.3,25.3,35.4,14.5,39C3.7,42.6,-7,45.7,-19.6,44.9C-32.1,44.2,-46.4,39.6,-58.8,28.8C-71.3,18,-81.7,0.9,-79.8,-14.8C-77.9,-30.4,-63.6,-44.6,-48.2,-48.8C-32.9,-52.9,-16.4,-47.1,-3.7,-42.7C9,-38.3,18,-35.2,30.7,-30.5Z" transform="translate(100 100)" />
+    </svg>
+    <svg class="circulo circulo2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path class="path" d="M44.9,-57.6C53.7,-46.1,53.4,-27.7,52.4,-12.3C51.5,3.1,49.9,15.5,46.6,32.3C43.4,49.2,38.4,70.4,27,74.9C15.6,79.4,-2.2,67.1,-17.6,57.5C-33,47.9,-46.1,41,-56.9,29.4C-67.6,17.8,-76.2,1.4,-73,-12.2C-69.8,-25.9,-55,-36.9,-40.9,-47.4C-26.8,-58,-13.4,-68.1,2.3,-70.9C18,-73.7,36.1,-69.1,44.9,-57.6Z" transform="translate(100 100)" />
+    </svg>
+    <svg class="circulo circulo3" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path class="path" d="M45,-35.6C59.1,-18.2,72,0.6,68.3,15.2C64.6,29.8,44.5,40.2,25.5,47C6.5,53.9,-11.4,57.3,-24,50.8C-36.6,44.3,-43.9,28,-48.8,10.1C-53.7,-7.8,-56.2,-27.3,-47.6,-43.5C-39.1,-59.7,-19.5,-72.6,-2.1,-70.9C15.4,-69.3,30.9,-53.1,45,-35.6Z" transform="translate(100 100)" />
+    </svg>
+    <svg class="circulo circulo4" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path class="path" d="M63.3,-35C74,-18,69.1,9.5,56,30.2C42.8,50.9,21.4,64.8,-1.7,65.8C-24.8,66.8,-49.5,54.8,-63.3,33.8C-77,12.7,-79.7,-17.4,-67.3,-35.4C-54.9,-53.4,-27.5,-59.1,-0.6,-58.8C26.3,-58.5,52.6,-52,63.3,-35Z" transform="translate(100 100)" />
+    </svg>
+  </div>
+
+  <header class="header">
+    <h1 class="h1"><a href="#inicio" title ='Franco Davat' class="a">Franco Davat</a></h1>
+    <nav class="nav">
+      <ul class="ul">
+        <li class="li"><a href="#inicio" title = 'Inicio'class="a">Inicio </a></li>
+        <li class="li"><a href="#works" title = 'Trabajos'class="a">Trabajos</a></li>
+        <li class="li"><a href="#about" title = 'Contacto'class="a">Contacto</a></li>
+      </ul>
+    </nav>
+  </header> 
+
+  <main class="main">
+
+    <div class="seccion" id="inicio">
+      <section class="seccion info">
+        <h2 class="h2">Franco Davat</h2>
+        <h3 class="h3">Fullstack Developer</h3>
+
+        <ul class="ul">
+          <li class="li">
+            <a href="https://www.linkedin.com/in/franco-davat/" class="a" title="Linkedin">Visitar mi Linkedin</a>
+          </li>
+          <li class="li">
+            <a href="https://github.com/Franven" class="a" title="Github">Visitar mi Git
+              hub</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="seccion works" id="works">
+
+      <h2 class="h2">Trabajos</h2>
+      <p class="p"> Aca te presento mis trabajos</p>
+
+      <div class="grid">
+        <article class="article">
+          <a class ='a' href="https://movie-by-franco.netlify.app/" title="Trabajo1">
+              <figure class="figure">
+                <img src="/assets/movies.png" alt="movies" class="img" loading="lazy">
+              </figure>
+              <h4 class="h4">Peliculas</h4>
+          </a>
+        </article>
+        <article class="article">
+          <a class ='a' href="https://calculator-by-franco.netlify.app/" title="Trabajo2  ">
+              <img src="/assets/calculadora.png" alt="calculadora" class="img" loading="lazy">
+            <h4 class="h4">Calculadora</h4>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion about" id="about">
+      <h2 class="h2">Sobre mi</h2>
+      <p class="p">Soy Full Stack Developer con experiencia en HTML, CSS y JavaScript, también desarrollando aplicaciones con React.js y Redux, así como Node.js y Express para el desarrollo del lado del servidor. Y para gestionar la base de datos SQL y Sequelize</p>
+      <p class="p">Estudié en SoyHenry, donde aprendí estas tecnologías. Trabajé con compañeros, corrigiendo el código mutuamente, y adquirí muchos conocimientos de mis profesores y compañeros.</p>
+      <p class="p">Estoy en búsqueda de un trabajo que me permita poner a prueba las habilidades que he adquirido y enfrentar nuevos desafíos en mi vida. Tengo muchas ganas de colaborar y aprender con nuevos compañeros</p>
+
+      <ul class="rrss">
+        <li class="li">
+          <a href="https://github.com/Franven" class="a" title="Github" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+          </a>
+        </li>
+        <li class="li" >
+          <a href="https://www.linkedin.com/in/franco-davat/" class="a" title="Linkedin" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+    </section>
+      
+  </main>
+
+  <footer class="footer">
+    <span class="span"> Gracias por llegar hasta aca </span>
+  </footer> 
+
+</body>
+</html>
